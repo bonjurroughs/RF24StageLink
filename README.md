@@ -9,6 +9,12 @@ broadcast (no ACK) — every fixture receives the whole MIDI stream and hands ea
 Layered on the [RF24](https://github.com/nRF24/RF24) library by composition — it never modifies RF24. Cross-platform;
 all timing is a non-blocking `update()` pump (no AVR timers/ISRs).
 
+> 📖 **Full documentation lives in the [Wiki](https://github.com/bonjurroughs/RF24StageLink/wiki).** New here? Start with
+> **[Getting Started](https://github.com/bonjurroughs/RF24StageLink/wiki/Getting-Started)** and
+> **[Hardware & Wiring](https://github.com/bonjurroughs/RF24StageLink/wiki/Hardware-and-Wiring)**. For the light-show side see
+> **[Animation Engine](https://github.com/bonjurroughs/RF24StageLink/wiki/Animation-Engine)** and
+> **[Tempo & Beat Sync](https://github.com/bonjurroughs/RF24StageLink/wiki/Tempo-and-Beat-Sync)**.
+
 ## How it works
 
 The master hops every `hopInterval` ms and sends a tiny **beacon** on each new channel carrying the hop position;
