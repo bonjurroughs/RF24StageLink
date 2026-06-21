@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2026 bonjurroughs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+NOTICE — combined-work licensing
+
+RF24StageLink is licensed MIT and contains no RF24 source code. However, it is
+designed to be compiled and linked against the RF24 library by TMRh20 / J. Coliz,
+which is licensed under the GNU General Public License, version 2 (GPL-2.0-only).
+
+Because a typical microcontroller build statically links RF24StageLink and RF24
+into a single firmware image, that combined binary you distribute is a derivative
+work governed by GPL-2.0-only. The MIT license above applies to the RF24StageLink
+source on its own; it does not, and cannot, relax RF24's GPL-2.0-only terms for
+the combined firmware. Distribute combined firmware accordingly.

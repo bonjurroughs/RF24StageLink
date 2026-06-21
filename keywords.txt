@@ -1,0 +1,66 @@
+#######################################
+# Syntax Coloring Map For RF24StageLink
+#######################################
+
+# Datatypes (KEYWORD1)
+RF24StageLink	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+setChannels	KEYWORD2
+setRadioAddress	KEYWORD2
+setHopInterval	KEYWORD2
+setDataRate	KEYWORD2
+setPALevel	KEYWORD2
+setRedundancy	KEYWORD2
+beginMaster	KEYWORD2
+beginFixture	KEYWORD2
+update	KEYWORD2
+sendMidi	KEYWORD2
+setDropActiveSensing	KEYWORD2
+setDropMtcQuarterFrame	KEYWORD2
+onMidi	KEYWORD2
+onNoteOn	KEYWORD2
+onNoteOff	KEYWORD2
+onControlChange	KEYWORD2
+onProgramChange	KEYWORD2
+onPitchBend	KEYWORD2
+onClock	KEYWORD2
+onStart	KEYWORD2
+onStop	KEYWORD2
+onContinue	KEYWORD2
+onSync	KEYWORD2
+setAbsorbClock	KEYWORD2
+syncBpm88	KEYWORD2
+syncPhase15	KEYWORD2
+syncPlaying	KEYWORD2
+haveTempo	KEYWORD2
+setChannelMask	KEYWORD2
+listenChannel	KEYWORD2
+listenAllChannels	KEYWORD2
+isSynced	KEYWORD2
+currentChannel	KEYWORD2
+setDebugStream	KEYWORD2
+disableDebug	KEYWORD2
+
+# Animation engine (SLAnimator / SLAnimations)
+SLAnimator	KEYWORD1
+SLAnimContext	KEYWORD1
+SLAnimFn	KEYWORD1
+setAnimation	KEYWORD2
+setIdleAnimation	KEYWORD2
+noteOn	KEYWORD2
+noteOff	KEYWORD2
+controlChange	KEYWORD2
+render	KEYWORD2
+renderAt	KEYWORD2
+effectiveBpm88	KEYWORD2
+activeNote	KEYWORD2
+timebase	KEYWORD2
+haveLock	KEYWORD2
+slSolidVelocity	KEYWORD2
+slPaletteCycle	KEYWORD2
+slBeatPulse	KEYWORD2
+slStrobeCC	KEYWORD2
+slChase	KEYWORD2
+slIdleBreath	KEYWORD2
+SL_NO_NOTE	LITERAL1

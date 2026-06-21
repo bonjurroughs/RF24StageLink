@@ -1,0 +1,16 @@
+# Claude Code local settings (not part of the library)
+.claude/
+
+# Build / IDE artifacts
+build/
+*.o
+*.elf
+*.hex
+*.bin
+.vscode/
+.pio/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
